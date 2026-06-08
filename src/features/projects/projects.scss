@@ -1,0 +1,26 @@
+.projects {
+  display: grid;
+
+  grid-template-columns:
+      repeat(auto-fit,minmax(300px,1fr));
+
+  gap: 2rem;
+}
+
+.project {
+  background: #1e293b;
+
+  padding: 2rem;
+
+  border-radius: 20px;
+
+  transition: .3s;
+}
+
+.project:hover {
+  transform: translateY(-10px);
+}
+
+p{
+  color:#8eb5f5;
+}
